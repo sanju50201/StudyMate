@@ -18,9 +18,6 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
-from django.views.static import serve
-from django.conf.urls import url
-
 
 # a list of different urls
 
@@ -29,10 +26,7 @@ urlpatterns = [
     # if this is not including, the root doesn't know it exists
     path("", include('base.urls')),
     path('api/', include('base.api.urls'))
-    url(r'^media/(?P<path>.*)$', serve,
-        {'document_root':       settings.MEDIA_ROOT}),
-    url(r'^static/(?P<path>.*)$', serve,
-        {'document_root': settings.STATIC_ROOT}),
+
 ]
 
 
