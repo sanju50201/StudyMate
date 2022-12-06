@@ -1,0 +1,1 @@
+web: gunicorn TOPICNET.wsgi --log-file -
