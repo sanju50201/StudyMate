@@ -6,7 +6,7 @@ gunicorn==20.1.0
 patsy==0.5.2
 pep8==1.7.1
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-Pillow==9.2.0
+Pillow==9.3.0
 pkginfo @ file:///tmp/build/80754af9/pkginfo_1643162084911/work
 psutil @ file:///opt/conda/conda-bld/psutil_1656431268089/work
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
